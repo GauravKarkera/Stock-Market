@@ -18,7 +18,7 @@ class Linechart extends Component {
     }
   }
   mapPropsToData = () => {
-    let temp
+  
     let arr = [];
     this.props.graphData && Object.keys(this.props.graphData).map((timeLine, index) => {
       if (index < 30) {
